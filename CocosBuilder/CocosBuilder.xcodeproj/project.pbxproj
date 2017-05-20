@@ -147,6 +147,7 @@
 		A09AB6F714E993AA009C8B91 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = A09AB6F614E993AA009C8B91 /* fps_images.png */; };
 		A77EF590171FD30E00451DA4 /* cwebp in Resources */ = {isa = PBXBuildFile; fileRef = A77EF58F171FD30E00451DA4 /* cwebp */; };
 		A77EF594171FD3B200451DA4 /* cwebp in Resources */ = {isa = PBXBuildFile; fileRef = A77EF58F171FD30E00451DA4 /* cwebp */; };
+		CDD6B8DB1ED0389300F7E4D2 /* CCFontDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6B8DA1ED0389300F7E4D2 /* CCFontDefinition.m */; };
 		E3127AA516C1D8E600D09AA4 /* CCBDirectoryComparer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3127AA416C1D8E600D09AA4 /* CCBDirectoryComparer.m */; };
 		E312972E16CC33B200A09155 /* SequencerPopoverBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = E312972D16CC33B200A09155 /* SequencerPopoverBlock.xib */; };
 		E312973316CC377700A09155 /* SequencerPopoverBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E312973216CC377700A09155 /* SequencerPopoverBlock.m */; };
@@ -1079,6 +1080,8 @@
 		A09AB6AE14E9935F009C8B91 /* vec4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec4.c; sourceTree = "<group>"; };
 		A09AB6F614E993AA009C8B91 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = "libs/cocos2d-iphone/Resources/Fonts/fps_images.png"; sourceTree = SOURCE_ROOT; };
 		A77EF58F171FD30E00451DA4 /* cwebp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cwebp; sourceTree = "<group>"; };
+		CDD6B8D91ED0389300F7E4D2 /* CCFontDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFontDefinition.h; sourceTree = "<group>"; };
+		CDD6B8DA1ED0389300F7E4D2 /* CCFontDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFontDefinition.m; sourceTree = "<group>"; };
 		E3127AA316C1D8E600D09AA4 /* CCBDirectoryComparer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBDirectoryComparer.h; sourceTree = "<group>"; };
 		E3127AA416C1D8E600D09AA4 /* CCBDirectoryComparer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBDirectoryComparer.m; sourceTree = "<group>"; };
 		E312972D16CC33B200A09155 /* SequencerPopoverBlock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SequencerPopoverBlock.xib; sourceTree = "<group>"; };
@@ -1910,8 +1913,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835DB0CB17156421003A2F7B /* Security.framework in Frameworks */,
 				E3A4747C16D43BF300DB0D61 /* AVFoundation.framework in Frameworks */,
+				835DB0CB17156421003A2F7B /* Security.framework in Frameworks */,
 				E3A4747A16D43BEA00DB0D61 /* OpenAL.framework in Frameworks */,
 				E3A4747816D43B5800DB0D61 /* AudioToolbox.framework in Frameworks */,
 				E3B19F6B15E62ADA000B023E /* Carbon.framework in Frameworks */,
@@ -3355,6 +3358,8 @@
 				E36A2738152263B4004986A8 /* CCDirector.m */,
 				E36A2739152263B4004986A8 /* CCDrawingPrimitives.h */,
 				E36A273A152263B4004986A8 /* CCDrawingPrimitives.m */,
+				CDD6B8D91ED0389300F7E4D2 /* CCFontDefinition.h */,
+				CDD6B8DA1ED0389300F7E4D2 /* CCFontDefinition.m */,
 				E36A273B152263B4004986A8 /* CCGLProgram.h */,
 				E36A273C152263B4004986A8 /* CCGLProgram.m */,
 				E36A273D152263B4004986A8 /* ccGLStateCache.h */,
@@ -5158,6 +5163,7 @@
 				E3214C5D15D54356002413A7 /* InspectorCustomEdit.m in Sources */,
 				E3B7BCA015E3BCFE00CF95EF /* MainToolbarDelegate.m in Sources */,
 				E3AF6CDB15F0A9BC0048DB2A /* HelpWindow.m in Sources */,
+				CDD6B8DB1ED0389300F7E4D2 /* CCFontDefinition.m in Sources */,
 				E3AF6CE415F0DBA90048DB2A /* HelpPage.m in Sources */,
 				E3C9CCBB161D0BBF008A3784 /* InspectorCodeConnectionsJS.m in Sources */,
 				E34039BE1624BF610067C7B8 /* CCBDocumentController.m in Sources */,
