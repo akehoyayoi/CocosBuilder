@@ -7,3 +7,6 @@
 [submodule "Examples/CocosBuilderExample/libs/CCBReader"]
 	path = Examples/CocosBuilderExample/libs/CCBReader
 	url = https://github.com/akehoyayoi/CCBReader.git
+[submodule "CocosBuilder/libs/cocos2d-iphone"]
+	path = CocosBuilder/libs/cocos2d-iphone
+	url = https://github.com/akehoyayoi/cocos2d-iphone-classic.git
